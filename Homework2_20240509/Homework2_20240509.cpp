@@ -7,12 +7,12 @@ using namespace std;
 template <typename TYPE_A, typename TYPE_B>
 double TriangleArea(TYPE_A bottom, TYPE_B height)
 {
-	return (bottom * height) / 2;
+	return (bottom * height) / 2.0;
 }
 
 int main()
 {
-	cout << "その三角形の面積は " << TriangleArea<int, int>(10.2f, 2.3f) << " です" << endl;
+	cout << "その三角形の面積は " << TriangleArea<int, int>(9.2f, 7.3f) << " です" << endl;
 }
 
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー
